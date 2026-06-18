@@ -1,0 +1,14 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# Custom user dictionary
+# You can add your commonly used words here with normal pinyin codes.
+---
+name: mydict
+version: "2025-01-01"
+sort: by_weight
+...
+# word<Tab>pinyin<Tab>(optional weight)
+智能B柱	zhi neng B zhu
+智能 B 柱	zhi neng B zhu
+身份验证	shen fen yan zheng

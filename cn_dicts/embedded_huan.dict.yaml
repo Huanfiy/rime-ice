@@ -1,0 +1,97 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# Huan embedded software vocabulary
+
+---
+name: embedded_huan
+version: "2026-06-03"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+# GPIO and pin modes
+通用输入输出	tong yong shu ru shu chu	100
+推挽输出	tui wan shu chu	100
+开漏输出	kai lou shu chu	100
+浮空输入	fu kong shu ru	100
+模拟输入	mo ni shu ru	100
+复用功能	fu yong gong neng	100
+上拉电阻	shang la dian zu	100
+下拉电阻	xia la dian zu	100
+
+# Timer and PWM
+占空比	zhan kong bi	100
+高电平时间	gao dian ping shi jian	100
+低电平时间	di dian ping shi jian	100
+高电平有效	gao dian ping you xiao	100
+低电平有效	di dian ping you xiao	100
+脉宽	mai kuan	100
+脉宽调制	mai kuan tiao zhi	100
+死区时间	si qu shi jian	100
+死区控制	si qu kong zhi	100
+预分频	yu fen pin	100
+预分频器	yu fen pin qi	100
+分频系数	fen pin xi shu	100
+自动重装载	zi dong chong zhuang zai	100
+自动重装载寄存器	zi dong chong zhuang zai ji cun qi	100
+重装载值	chong zhuang zai zhi	100
+比较匹配	bi jiao pi pei	100
+输出比较	shu chu bi jiao	100
+输入捕获	shu ru bu huo	100
+捕获比较	bu huo bi jiao	100
+捕获比较寄存器	bu huo bi jiao ji cun qi	100
+影子寄存器	ying zi ji cun qi	100
+计数器溢出	ji shu qi yi chu	100
+中心对齐	zhong xin dui qi	100
+边沿对齐	bian yan dui qi	100
+向上计数	xiang shang ji shu	100
+向下计数	xiang xia ji shu	100
+互补输出	hu bu shu chu	100
+
+# Signal timing
+上升沿	shang sheng yan	100
+下降沿	xia jiang yan	100
+边沿触发	bian yan chu fa	100
+电平触发	dian ping chu fa	100
+建立时间	jian li shi jian	100
+保持时间	bao chi shi jian	100
+采样时间	cai yang shi jian	100
+采样周期	cai yang zhou qi	100
+采样率	cai yang lv	100
+过采样	guo cai yang	100
+波特率	bo te lv	100
+
+# Interrupt and RTOS
+外部中断	wai bu zhong duan	100
+中断优先级	zhong duan you xian ji	100
+中断向量表	zhong duan xiang liang biao	100
+中断服务函数	zhong duan fu wu han shu	100
+中断服务程序	zhong duan fu wu cheng xu	100
+临界区	lin jie qu	100
+原子操作	yuan zi cao zuo	100
+任务栈	ren wu zhan	100
+上下文切换	shang xia wen qie huan	100
+优先级反转	you xian ji fan zhuan	100
+
+# Clock and power
+时钟树	shi zhong shu	100
+时钟源	shi zhong yuan	100
+系统时钟	xi tong shi zhong	100
+总线时钟	zong xian shi zhong	100
+总线频率	zong xian pin lv	100
+外部晶振	wai bu jing zhen	100
+内部时钟	nei bu shi zhong	100
+锁相环	suo xiang huan	100
+主频	zhu pin	100
+低功耗模式	di gong hao mo shi	100
+睡眠模式	shui mian mo shi	100
+停止模式	ting zhi mo shi	100
+待机模式	dai ji mo shi	100
+
+# Firmware architecture
+硬件抽象层	ying jian chou xiang ceng	100
+板级支持包	ban ji zhi chi bao	100
+片上外设	pian shang wai she	100
+独立看门狗	du li kan men gou	100
+窗口看门狗	chuang kou kan men gou	100
