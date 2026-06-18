@@ -3,20 +3,21 @@
 .vscode/
 dist/
 
+# Rime 运行期 / 本机状态(不入库)
 build/
 *.userdb/
 installation.yaml
 user.yaml
 *.custom.yaml
-!others/**/*.custom.yaml
 
-custom_phrase_double.txt
-others/script/scel2txt/out/*
-others/script/scel2txt/scel/*
-cn_dicts/temp.txt
+# sync/ 只跟踪 userdb 学习快照;配置副本由 Rime 同步时本地生成,不入库
+sync/**/*.yaml
+sync/**/*.txt
+!sync/**/*.userdb.txt
 
 *private*
 
+# Rime CLI 工具(本机安装,不入库)
 rime_console
 rime_deployer
 rime_patch
